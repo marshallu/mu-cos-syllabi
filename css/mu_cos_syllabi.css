@@ -1,0 +1,47 @@
+/* syllabi layout */
+div.cos_syllabi {
+	margin: 20px 0;
+}	
+div.cos_courses_filters {
+	border: solid 1px #333;
+	background-color: #eee;
+	padding: 8px;
+}
+div.cos_courses_filters > span {
+	margin: 0 12px;
+}
+div.cos_courses_filters > span > input[type=text] {
+	width: 300px;
+}
+div.cos_syllabi div.bottom > div {
+    font-size: 0.875rem;
+}
+div.dataTables_length {
+	padding-left: 2em;
+}
+div.dataTables_length label {
+    display: inline;
+}
+div.dataTables_length select {
+    display: inline;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+}
+div.dataTables_length {
+	padding-top: 0.255em;
+}
+
+a.icon {
+	display: inline-block;
+	padding-right: 22px;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	background-size: 16px;
+}
+a.icon.syllabus {
+	background-image: url("icon-doc.png");
+}
+a.icon.email {
+	background-image: url("icon-mail.png");
+}
