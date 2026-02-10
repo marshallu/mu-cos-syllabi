@@ -13,7 +13,7 @@
  * Enqueue scripts and styles.
  */
 function cos_syllabi_styles() {
-	wp_enqueue_style( 'syllabi_datatables_style', plugin_dir_url( __FILE__ ) . 'css/mu-cos-syllabi.css', array(), filemtime( plugin_dir_path( __FILE__ ) . 'css/mu-cos-syllabi.css' ), 'all' );
+	wp_enqueue_style( 'syllabi_datatables_style', plugin_dir_url( __FILE__ ) . 'css/mu_cos_syllabi.css', array(), filemtime( plugin_dir_path( __FILE__ ) . 'css/mu_cos_syllabi.css' ), 'all' );
 	wp_enqueue_style( 'syllabi_style', plugin_dir_url( __FILE__ ) . 'css/datatables.min.css', array(), filemtime( plugin_dir_path( __FILE__ ) . 'css/datatables.min.css' ), 'all' );
 	wp_enqueue_style( 'syllabi_datatables_style' );
 	wp_enqueue_style( 'syllabi_style' );
